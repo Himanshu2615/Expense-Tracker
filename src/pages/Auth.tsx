@@ -49,14 +49,10 @@ const Auth = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white from-blue-50 to-indigo-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient from-green-50 to-indigo-50 flex items-center justify-center p-4">
       <Card className="w-full max-w-md p-6 space-y-6">
         <div className="flex flex-col items-center">
-          <img
-            src="/public\WhatsApp_Image_2023-09-28_at_21.45.38-removebg-preview (1).png"
-            alt="Linpack Logo"
-            className="w-24 h-24 object-contain mb-2"
-          />
+
         </div>
         <h1 className="text-2xl font-bold text-center">
           {isSignUp ? "Create Account" : "Welcome Back"}
