@@ -35,7 +35,7 @@ export const ExpenseList = ({ expenses, onDelete }: ExpenseListProps) => {
               <TableCell>{expense.category}</TableCell>
               <TableCell>{expense.description}</TableCell>
               <TableCell className="text-right">
-                ${expense.amount.toFixed(2)}
+              ₹{expense.amount.toFixed(2)}
               </TableCell>
               <TableCell className="text-right">
                 <Button

@@ -137,7 +137,7 @@ const Index = () => {
           <Card className="p-4">
             <p className="text-sm text-gray-500">Total Expenses</p>
             <p className="text-2xl font-bold text-primary">
-              ${totalExpenses.toFixed(2)}
+            ₹{totalExpenses.toFixed(2)}
             </p>
           </Card>
         </div>
